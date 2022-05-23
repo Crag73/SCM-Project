@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Sign_up.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <h1 class="home"><a href="index.html">Incredible-Rajasthan</a></h1>
+            </div>
+            <div class="menu">
+                <a href="#">Gallery</a>
+                
+                <a href="#">Contact</a>
+                <a href="about.html">About </a>
+            </div>
+        </nav>
+        <main class="sign_up">
+            <form class="form" id="register" name="myform" action="#" onsubmit="return formvalidation(true)" method="post ">
+                <h2>Register here</h2><br><br>
+                <label>First name:</label><span id="formerror"></span>
+                <input type="text" name="fname" class='name' id="first-name" placeholder="Enter Your first name"><span id="formerror"></span>
+                <label> Last name:</label>
+                <input type="text" name="lname" class='name' id="last-name"
+                    placeholder="Enter your Last Name"><br><br><br><span id="formerror"></span>
+                <label>Email:</label>
+                <input type="email" name="email" class='name' id="email" placeholder="Enter your mail"
+                    ><br><br><br></span><span id="formerror"></span>
+                <label>Age</label>
+                <input type="number" name="age" class='name' id="age" placeholder="Enter Your Age"><span id="formerror"></span>
+                <label>Id proof</label>
+                <input type="file" name="image" class='image' id="file"><br><br><br>
+                <label>Gender</label>
+                <input type="radio" name="Gender" class='name' id="male">
+                <span id="male">Male</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Gender" class='name' id="Female">
+                <span id="female">Female</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Gender" class='name' id="other">
+                <span id="other">other</span><br><br><br><br><br>
+                <input type="submit" value="submit" class="submit">
+
+            </form>
+
+        </main>
+    </header>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
